@@ -1,0 +1,82 @@
+body {
+  background: #134b99;
+  padding-top: 150px;
+}
+
+
+.waitlist {
+
+    width: 70%;
+  
+    background: #fff;
+    color: #134b99;
+    
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+  }
+  
+  .waitlist__heading {
+    font-weight: bold;
+    text-align: center;
+  }
+  .waitlist__text {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .waitlist__input {
+     border: 2px solid #134b99;
+     width: 450px;
+     padding: 15px 10px;
+     border-radius: 10px;
+     background: #fff;
+     
+  }
+  .waitlist__input::placeholder {
+    color: #444;
+  }
+  .waitlist__button {
+    border-radius: 10px;
+    width: 150px;
+  
+    border: 2px solid #fff;
+  
+    padding: 18px 30px;
+    background: #134b99;
+    color: #fff;
+  }
+  .waitlist__button:hover {
+    background: #1467da;
+    color: #fff;
+    transition: 0.35s ease-in-out;
+  }
+  .waitlist__button:after {
+    opacity: 0.8;
+  }
+  @media screen and (max-width: 960px) {
+    body {
+      padding-top: 80px;
+    }
+    .waitlist {
+      width: 80%;
+      
+    }
+    .waitlist__texts {
+      width: 75%;
+      margin-bottom: 15px;
+    }
+    .waitlist__input {
+      width: 80%;
+      padding: 15px 5px;
+      margin-bottom: 20px;
+      
+    }
+    .waitlist__button {
+      width: 85%;
+      padding: 18px 5px;
+      font-weight: bold;
+    }
+  }
